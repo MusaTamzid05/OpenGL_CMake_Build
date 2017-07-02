@@ -57,38 +57,38 @@ include CMakeFiles/testas.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/testas.dir/flags.make
 
-CMakeFiles/testas.dir/main.cpp.o: CMakeFiles/testas.dir/flags.make
-CMakeFiles/testas.dir/main.cpp.o: main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/musa/c++_pro/opengl_pro/test2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/testas.dir/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testas.dir/main.cpp.o -c /home/musa/c++_pro/opengl_pro/test2/main.cpp
+CMakeFiles/testas.dir/src/main.cpp.o: CMakeFiles/testas.dir/flags.make
+CMakeFiles/testas.dir/src/main.cpp.o: src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/musa/c++_pro/opengl_pro/test2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/testas.dir/src/main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testas.dir/src/main.cpp.o -c /home/musa/c++_pro/opengl_pro/test2/src/main.cpp
 
-CMakeFiles/testas.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testas.dir/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/musa/c++_pro/opengl_pro/test2/main.cpp > CMakeFiles/testas.dir/main.cpp.i
+CMakeFiles/testas.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testas.dir/src/main.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/musa/c++_pro/opengl_pro/test2/src/main.cpp > CMakeFiles/testas.dir/src/main.cpp.i
 
-CMakeFiles/testas.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testas.dir/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/musa/c++_pro/opengl_pro/test2/main.cpp -o CMakeFiles/testas.dir/main.cpp.s
+CMakeFiles/testas.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testas.dir/src/main.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/musa/c++_pro/opengl_pro/test2/src/main.cpp -o CMakeFiles/testas.dir/src/main.cpp.s
 
-CMakeFiles/testas.dir/main.cpp.o.requires:
+CMakeFiles/testas.dir/src/main.cpp.o.requires:
 
-.PHONY : CMakeFiles/testas.dir/main.cpp.o.requires
+.PHONY : CMakeFiles/testas.dir/src/main.cpp.o.requires
 
-CMakeFiles/testas.dir/main.cpp.o.provides: CMakeFiles/testas.dir/main.cpp.o.requires
-	$(MAKE) -f CMakeFiles/testas.dir/build.make CMakeFiles/testas.dir/main.cpp.o.provides.build
-.PHONY : CMakeFiles/testas.dir/main.cpp.o.provides
+CMakeFiles/testas.dir/src/main.cpp.o.provides: CMakeFiles/testas.dir/src/main.cpp.o.requires
+	$(MAKE) -f CMakeFiles/testas.dir/build.make CMakeFiles/testas.dir/src/main.cpp.o.provides.build
+.PHONY : CMakeFiles/testas.dir/src/main.cpp.o.provides
 
-CMakeFiles/testas.dir/main.cpp.o.provides.build: CMakeFiles/testas.dir/main.cpp.o
+CMakeFiles/testas.dir/src/main.cpp.o.provides.build: CMakeFiles/testas.dir/src/main.cpp.o
 
 
 # Object files for target testas
 testas_OBJECTS = \
-"CMakeFiles/testas.dir/main.cpp.o"
+"CMakeFiles/testas.dir/src/main.cpp.o"
 
 # External object files for target testas
 testas_EXTERNAL_OBJECTS =
 
-testas: CMakeFiles/testas.dir/main.cpp.o
+testas: CMakeFiles/testas.dir/src/main.cpp.o
 testas: CMakeFiles/testas.dir/build.make
 testas: /usr/lib/x86_64-linux-gnu/libGLU.so
 testas: /usr/lib/x86_64-linux-gnu/libGL.so
@@ -104,7 +104,7 @@ CMakeFiles/testas.dir/build: testas
 
 .PHONY : CMakeFiles/testas.dir/build
 
-CMakeFiles/testas.dir/requires: CMakeFiles/testas.dir/main.cpp.o.requires
+CMakeFiles/testas.dir/requires: CMakeFiles/testas.dir/src/main.cpp.o.requires
 
 .PHONY : CMakeFiles/testas.dir/requires
 
