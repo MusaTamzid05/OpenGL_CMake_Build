@@ -123,6 +123,33 @@ testas/fast:
 	$(MAKE) -f CMakeFiles/testas.dir/build.make CMakeFiles/testas.dir/build
 .PHONY : testas/fast
 
+src/glad.o: src/glad.cpp.o
+
+.PHONY : src/glad.o
+
+# target to build an object file
+src/glad.cpp.o:
+	$(MAKE) -f CMakeFiles/testas.dir/build.make CMakeFiles/testas.dir/src/glad.cpp.o
+.PHONY : src/glad.cpp.o
+
+src/glad.i: src/glad.cpp.i
+
+.PHONY : src/glad.i
+
+# target to preprocess a source file
+src/glad.cpp.i:
+	$(MAKE) -f CMakeFiles/testas.dir/build.make CMakeFiles/testas.dir/src/glad.cpp.i
+.PHONY : src/glad.cpp.i
+
+src/glad.s: src/glad.cpp.s
+
+.PHONY : src/glad.s
+
+# target to generate assembly for a file
+src/glad.cpp.s:
+	$(MAKE) -f CMakeFiles/testas.dir/build.make CMakeFiles/testas.dir/src/glad.cpp.s
+.PHONY : src/glad.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... testas"
+	@echo "... src/glad.o"
+	@echo "... src/glad.i"
+	@echo "... src/glad.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

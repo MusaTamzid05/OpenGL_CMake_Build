@@ -6,6 +6,20 @@
 
 #IncludeRegexTransform: 
 
+/home/musa/c++_pro/opengl_pro/basic_opengl_cmake_build/src/glad.cpp
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+glad/glad.h
+-
+windows.h
+-
+dlfcn.h
+-
+
 /home/musa/c++_pro/opengl_pro/basic_opengl_cmake_build/src/main.cpp
 glad/glad.h
 -

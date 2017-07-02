@@ -1,1 +1,1 @@
-/usr/bin/c++      CMakeFiles/testas.dir/src/main.cpp.o  -o testas -rdynamic -lGLU -lGL -lglut -lXmu -lXi -lGL -lGLU -lGLEW -lglfw 
+/usr/bin/c++    -std=c++11   CMakeFiles/testas.dir/src/glad.cpp.o CMakeFiles/testas.dir/src/main.cpp.o  -o testas -rdynamic -lGLU -lGL -lglut -lXmu -lXi -lGL -lGLU -lGLEW -lglfw -ldl 
