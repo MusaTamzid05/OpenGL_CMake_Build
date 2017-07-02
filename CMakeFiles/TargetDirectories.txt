@@ -1,0 +1,3 @@
+/home/musa/c++_pro/opengl_pro/test2/CMakeFiles/edit_cache.dir
+/home/musa/c++_pro/opengl_pro/test2/CMakeFiles/rebuild_cache.dir
+/home/musa/c++_pro/opengl_pro/test2/CMakeFiles/testas.dir
