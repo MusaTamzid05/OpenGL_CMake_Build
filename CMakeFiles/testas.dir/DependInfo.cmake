@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/musa/c++_pro/opengl_pro/test2/src/main.cpp" "/home/musa/c++_pro/opengl_pro/test2/CMakeFiles/testas.dir/src/main.cpp.o"
+  "/home/musa/c++_pro/opengl_pro/basic_opengl_cmake_build/src/main.cpp" "/home/musa/c++_pro/opengl_pro/basic_opengl_cmake_build/CMakeFiles/testas.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

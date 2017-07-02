@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/musa/c++_pro/opengl_pro/test2/include 
+CXX_INCLUDES = -I/home/musa/c++_pro/opengl_pro/basic_opengl_cmake_build/include 
 

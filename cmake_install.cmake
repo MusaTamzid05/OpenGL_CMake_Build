@@ -1,4 +1,4 @@
-# Install script for directory: /home/musa/c++_pro/opengl_pro/test2
+# Install script for directory: /home/musa/c++_pro/opengl_pro/basic_opengl_cmake_build
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/musa/c++_pro/opengl_pro/test2/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/musa/c++_pro/opengl_pro/basic_opengl_cmake_build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
